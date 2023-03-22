@@ -5,6 +5,7 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://freezepluto.github.io/',
+    base: 'astro-docs',
     integrations: [
         // Enable Preact to support Preact JSX components.
         preact(),
