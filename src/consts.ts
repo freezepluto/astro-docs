@@ -37,10 +37,10 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
 	cn: {
 		'文档列表': [
-			{ text: 'Cube-Web', link: 'cn/cube' },
-			{ text: 'Cube-Hirozin', link: 'cn/page-2' },
-			{ text: 'Cube-Otter', link: 'cn/page-3' },
+			{ text: 'Cube-Web', link: 'astro-docs/cn/cube' },
+			{ text: 'Cube-Hirozin', link: 'astro-docs/cn/page-2' },
+			{ text: 'Cube-Otter', link: 'astro-docs/cn/page-3' },
 		],
-		// 'Another Section': [{ text: 'Page 4', link: 'cn/page-4' }],
+		// 'Another Section': [{ text: 'Page 4', link: 'astro-docs/cn/page-4' }],
 	},
 };
